@@ -23,7 +23,7 @@ function Nav() {
 
   return (
     <div  className=" w-full h-14 fixed ">
-      <nav id="nav" className="bg-white h-full w-11/12 flex justify-between  mx-auto rounded-xl absolute top-6 left-4 sm:left-16 sm:h-[5rem]">
+      <div id="nav" className="bg-white h-full w-11/12 flex justify-between  mx-auto rounded-xl absolute top-6 left-4 sm:left-16 sm:h-[5rem]">
         <h2 className="title text-3xl font-semibold text-left mr-3 pt-2 pl-4 sm:text-5xl">
           Trripy
         </h2>
@@ -64,7 +64,7 @@ function Nav() {
             ))}
           </ul>
         )}
-      </nav>
+      </div>
     </div>
   );
 }

@@ -20,7 +20,7 @@ function App() {
         <Route element={<Contact/>} path="/contacts"/>
       </Routes>
     {/* <div className="bg-slate-100"> */}
-        <Nav/>
+        {/* <Nav/> */}
         {/* <Home/> */}
         
     </div>
