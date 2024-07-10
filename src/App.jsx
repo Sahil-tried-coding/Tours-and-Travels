@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
+import Nav from "./components/Nav";
+// import Hero from "./components/Hero"
 // import Populer from "./components/Populer"
 // import Recent from "./components/Recent"
 import About from "./components/About"
@@ -20,7 +20,7 @@ function App() {
         <Route element={<Contact/>} path="/contacts"/>
       </Routes>
     {/* <div className="bg-slate-100"> */}
-        <Navbar/>
+        <Nav/>
         {/* <Home/> */}
         
     </div>

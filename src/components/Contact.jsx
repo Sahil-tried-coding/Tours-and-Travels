@@ -1,9 +1,9 @@
-import Navbar from "./Navbar"
+import Nav from "./Nav"
 import Footer from "./Footer"
 function Contact() {
   return (
     <div className="h-screen w-screen">
-        <Navbar/>
+        <Nav/>
     <div>
        <img src="https://wallpapercave.com/wp/GxKkTlM.jpg" className="sm:h-[100vh] h-[90vh] object-cover w-full"/>
        <h1 className=" sm:top-[23rem] sm:left-[46rem] sm:text-8xl sm:font-bold text-black  absolute left-[10.5rem] top-[28.9rem] font-sans text-5xl font-bold">Contact Us</h1>

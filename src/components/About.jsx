@@ -1,10 +1,10 @@
-import Navbar from "./Navbar"
+import Nav from "./Nav"
 import Footer from "./Footer"
 import bg from "../Assets/about.jpg"
 function About() {
   return (
     <div className="h-screen w-screen">
-    <Navbar/>
+    <Nav/>
     <div>
       <div>
        <img src={bg} className="sm:h-[100vh] h-[90vh] object-cover w-full"/>

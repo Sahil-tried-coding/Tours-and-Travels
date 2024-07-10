@@ -1,11 +1,11 @@
 import Hero from "./Hero"
-import Navbar from "./Navbar"
+import Nav from "./Nav"
 import Populer from "./Populer"
 import Recent from "./Recent"
 function Home() {
   return (
     <div>
-      <Navbar/>
+      <Nav/>
         <Hero/>
         <Populer/>
         <Recent/>

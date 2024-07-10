@@ -1,10 +1,10 @@
-import Navbar from "./Navbar"
+import Nav from "./Nav"
 import Recent from "./Recent"
 import bg from "../Assets/service.jpg"
 function Service() {
   return (
     <div className="h-screen w-screen ">
-        <Navbar/>
+        <Nav/>
         <div>
        <img src={bg} className="sm:h-[100vh] h-[90vh] object-cover w-full"/>
        <h1 className=" sm:top-[18rem] sm:left-[39rem] sm:text-8xl sm:font-bold text-white  absolute left-[7.5rem] top-[17.9rem] font-sans text-5xl font-bold">Services</h1>
