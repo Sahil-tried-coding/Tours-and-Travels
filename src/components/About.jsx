@@ -3,11 +3,11 @@ import Footer from "./Footer"
 import bg from "../Assets/about.jpg"
 function About() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen  w-[104vw]">
     <Nav/>
-    <div>
+    <div className="">
       <div>
-       <img src={bg} className="sm:h-[100vh] h-[90vh] object-cover w-full"/>
+       <img src={bg} className="sm:h-[100vh] h-[90vh] overflow-x-hidden object-cover w-full"/>
        <h1 className=" sm:top-[23rem] sm:left-[39rem] sm:text-8xl sm:font-bold text-white  absolute left-[7.5rem] top-[26rem] font-sans text-5xl font-bold">About Us</h1>
        <p className=" sm:top-[32rem] sm:left-[39rem] sm:text-3xl sm:font-semibold absolute top-[32rem] text-xl font-semibold  text-nowrap">Explore the World with Ease</p>
        <p className=" sm:top-[35rem] sm:left-[35rem] sm:text-3xl sm:font-semibold absolute  left-[4.2rem] top-[34rem] text-xl font-semibold  text-nowrap">: Your Ultimate Tours and Travels Guide!</p>
