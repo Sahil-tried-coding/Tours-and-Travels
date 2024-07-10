@@ -8,7 +8,7 @@ function Recent() {
     let {HeroHeading} = useContext(MyContext);
     let {CardData}=useContext(MyContext);
   return (
-    <div className="w-[99vw] overflow-x-hidden h-screen">
+    <div className="w-[100vw] h-screen">
          <h1 className="sm:text-8xl text-center text-6xl font-bold">{HeroHeading[1].heading}</h1>
          <h1 className="text-center mt-5 font-semibold sm:text-2xl sm:mt-5 text-xl sm:font-bold  ">{HeroHeading[1].downHeading}</h1>
         <div className="sm:flex  sm:w-full sm:gap-10">
